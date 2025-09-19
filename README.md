@@ -22,21 +22,21 @@ It's an interruption that reminds you the TV show isn't really happening, the mo
 
 In French media it looks like this:
 
-- Sous-titrage ST' 501
-- sous-titrage par Amara.org
-- sous-titrage fr
-- Sous-titrage FR 2021
-- Sous-titrage Société Radio-Canada
+- Sous-titrage ST' 501       
+- sous-titrage par Amara.org    
+- sous-titrage fr               
+- Sous-titrage FR 2021          
+- Sous-titrage Société Radio-Canada     
 - Sous-titrage MFP
-- Abonnez-vous
-- Merci d'avoir regardé cette vidéo !
-- Merci à tous 
+- Abonnez-vous                  
+- Merci d'avoir regardé cette vidéo !   
+- Merci à tous                          
 
-None of these texts are actually in the speech being transcribed. 
+None of these texts are actually in the speech being transcribed. They translate to stuff like, "Subtitles by Amara.org" or "Radio Canada Society Subtitles" or "Thanks for having watched this video," none of which is actually said.
 
 Why is it there?
 
-Because in Whisper's training data was improperly cleaned. This is the best explanation.
+Because in Whisper's training data was improperly cleaned. Not a big deal; we can just remove such output.
 
 ### How do I use this script?
 

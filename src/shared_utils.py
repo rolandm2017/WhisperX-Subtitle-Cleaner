@@ -1,6 +1,5 @@
 # shared_utils.py
 
-
 def remove_srt_extension(base_name):
     return base_name[:-4]
 

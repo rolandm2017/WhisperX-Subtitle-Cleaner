@@ -4,7 +4,7 @@
 """
 Checks a file for .SRT files that have WhisperX outputs including some junk.
 
-WhisperX thinks silence is time to put "Sous-titres FR" due to
+WhisperX thinks silence is time to put "French subtitles!" as the subtitle due to
 the training data having such non-real dialogue transcriptions during silence.
 
 """
@@ -26,11 +26,8 @@ from shared_utils import (
     remove_srt_extension
 )
 
-
+# For in case you wish to log all removals from a batch of runs into one log file.
 current_main_log_file = ""
-
-# This is the phony patterns an array.
-# An array is anything between two pointed brackets: []
 
 
 class RealSubtitlesResult(TypedDict):

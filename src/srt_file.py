@@ -2,7 +2,7 @@
 import os
 import re
 
-from typing import List, Dict, Any, TypedDict
+from typing import List, TypedDict
 
 
 class SubtitleDict(TypedDict):
