@@ -8,6 +8,8 @@ Remove artificial subtitles that WhisperX incorrectly generates during silence.
 python clean_whisperx_output.py input.srt --output cleaned.srt
 ```
 
+You could use this to clear junk subtitles from one singular video file at a time, or in a batch script.
+
 ## The purpose of cleaning your WhisperX output
 
 Whisper and WhisperX produce junk subtitles that are purely imaginary. There is no matching dialogue, no audio cue to create such a subtitle, beyond the existence of silence.
