@@ -13,13 +13,13 @@ import os
 import re
 from typing import List, Dict, Any, TypedDict
 
-from junk_patterns import JUNK_PATTERNS
+from src.junk_patterns import JUNK_PATTERNS
 
-from colors_printer import colored_print, colored_print_info_type
+from src.colors_printer import colored_print, colored_print_info_type
 
-from srt_file import SRTFile, SubtitleDict
+from src.srt_file import SRTFile, SubtitleDict
 
-from shared_utils import (
+from src.shared_utils import (
     make_cleaned_srt_filename,
     make_log_with_cleaned_lines,
     make_empty_log_filename,
